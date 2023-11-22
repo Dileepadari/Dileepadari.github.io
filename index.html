@@ -4,10 +4,87 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dileepadari</title>
+    <link href="style.css" rel="stylesheet">
+    <script src="script.js" type="javascript/text"></script>
+    <style>
+        body{
+            background-color: rgb(255, 255, 255);
+            color: black;
+        }
+        header{
+            background-color: rgb(255, 255, 255);
+            height: 80px;
+            width: 100%;
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            z-index: 1;
+        }
+        nav{
+            float: right;
+            margin-right: 20px;
+            margin-top: 20px;
+        }
+        nav ul{
+            margin: 0;
+            padding: 0;
+            list-style: none;
+        }
+        nav ul li{
+            display: inline-block;
+            margin-left: 20px;
+            padding: 10px;
+        }
+        nav ul li a{
+            text-decoration: none;
+            color: rgb(0, 0, 0);
+            font-size: 20px;
+        }
+        nav ul li a:hover{
+            color: rgb(0, 0, 0);
+        }
+        .center-justify{
+            text-align: center;
+            margin-top: 200px;
+            font-size: 30px;
+        }
+        footer{
+            background-color: rgb(255, 255, 255);
+            height: 100px;
+            width: 100%;
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            z-index: 1;
+        }
+        footer p{
+            text-align: center;
+            font-size: 20px;
+            margin-top: 40px;
+        }
+    </style>
 </head>
+<header>
+<nav>
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About me</a></li>
+        <li><a href="contact.html">Contact me</a></li>
+    </ul>
+</nav>
+</header>
 <body>
-    <h1>This is My portfolio</h1>
-    <h2>The Site is under maintenance...</h2>
-    <h4>Please Visit me back after some days...</h4>
+    <p class="center-justify">
+        This is DileepKumar Adari.<br>
+        An undergrad Computer Science Enthusiast.<br>
+        This site is under development...<br>
+        Thank you for visiting...<br>
+        Visit again...<br>
+    </p>
 </body>
+<footer>
+    <p>© 2023 Dileepadari</p>
+</footer>
 </html>
