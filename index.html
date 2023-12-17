@@ -3,88 +3,419 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dileepadari</title>
-    <link href="style.css" rel="stylesheet">
-    <script src="script.js" type="javascript/text"></script>
-    <style>
-        body{
-            background-color: rgb(255, 255, 255);
-            color: black;
-        }
-        header{
-            background-color: rgb(255, 255, 255);
-            height: 80px;
-            width: 100%;
-            position: fixed;
-            top: 0;
-            left: 0;
-            right: 0;
-            z-index: 1;
-        }
-        nav{
-            float: right;
-            margin-right: 20px;
-            margin-top: 20px;
-        }
-        nav ul{
-            margin: 0;
-            padding: 0;
-            list-style: none;
-        }
-        nav ul li{
-            display: inline-block;
-            margin-left: 20px;
-            padding: 10px;
-        }
-        nav ul li a{
-            text-decoration: none;
-            color: rgb(0, 0, 0);
-            font-size: 20px;
-        }
-        nav ul li a:hover{
-            color: rgb(0, 0, 0);
-        }
-        .center-justify{
-            text-align: center;
-            margin-top: 200px;
-            font-size: 30px;
-        }
-        footer{
-            background-color: rgb(255, 255, 255);
-            height: 100px;
-            width: 100%;
-            position: fixed;
-            bottom: 0;
-            left: 0;
-            right: 0;
-            z-index: 1;
-        }
-        footer p{
-            text-align: center;
-            font-size: 20px;
-            margin-top: 40px;
-        }
-    </style>
+    <title>DileepAdari Portfolio</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.6.0/fonts/remixicon.css" rel="stylesheet">
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,300;0,400;0,600;0,700;1,100;1,300;1,600&display=swap" rel="stylesheet">
+
 </head>
-<header>
-<nav>
-    <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="about.html">About me</a></li>
-        <li><a href="contact.html">Contact me</a></li>
-    </ul>
-</nav>
-</header>
 <body>
-    <p class="center-justify">
-        This is DileepKumar Adari.<br>
-        An undergrad Computer Science Enthusiast.<br>
-        This site is under development...<br>
-        Thank you for visiting...<br>
-        Visit again...<br>
-    </p>
+    <!--header-->
+    <header>
+        <a href="" class="logo">Dileep<span class="logo thoka">Kumar</span> <span>A.</span></a>
+
+        <div class="bx bx-menu" id="menu-icon"></div>
+        <ul class="navlist">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#interest">Interests</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="top-btn con">
+            <a href="mailto:adaridileep@gmail.com" class="h-btn">Contact me</a>
+        </div>
+    </header>
+
+    <!--homepage-->
+    <section class="homepage" id="home">
+        <div class="blur-bgimage"></div>
+        <div class="bg-img">
+            <img src="images/background.png" alt="image">
+        </div>
+        <div class="main-content">
+            <h4>Hi, There!</h4>
+            <h1>I'm <span>Dileep Kumar</span></h1>
+            <p>A passionate web developer and programmer. My journey revolves around the enchanting world of software engineering, where I thrive on turning ideas into reality through the art of coding. With a keen interest in crafting digital solutions, my focus is on creating seamless and innovative experiences. Welcome to my portfolio, where every line of code tells a story of creativity and precision in the realm of web development</p>
+            <div class="social">
+                <a href="https://www.facebook.com/dileep.adari" target="_blank"><i class="ri-facebook-fill"></i></a>
+                <a href="https://www.instagram.com/dileepadari" target="_blank"><i class="ri-instagram-fill"></i></a>
+                <a href="https://twitter.com/Dileepadari1" target="_blank"><i class="ri-twitter-fill"></i></a>
+                <a href="https://www.youtube.com/channel/UCi5zNthz3a2iOa0VVy3QH8Q" target="_blank"><i class="ri-youtube-fill"></i></a>
+            </div>
+            <div class="main-btn">
+                <a href="https://github.com/Dileepadari" class="btn" target="_blank"><i class="ri-github-fill"></i> GitHub</a>
+                <a href="docs/portfolio.pdf" class="btn btn2" target="_self" download="dileep_portfolio">Download CV</a>
+            </div>
+        </div>
+    </section>
+
+    <!--about page-->
+    <section class="aboutpage" id="about">
+        <div class="about-text">
+            <h2>I am a <span>Programmer</span><br> & <span>Web Developer</span> </h2>
+            <div class="exp-area">
+                <p class="exp">
+                    Education:
+                    <span>B-Tech Year 2*</span>
+                </p>
+                <p class="exp">
+                    College:
+                    <span>IIIT Hyderabad</span>
+                </p>
+                <p class="exp">
+                    Skills:
+                    <span>HTML, CSS, JS, PHP, Python, MERN</span>
+                </p>
+                <p class="exp">
+                    Address:
+                    <span>Vishakapatnam, AP</span>
+                </p>
+                <p class="exp">
+                    Email:
+                    <span>adaridileep@gmail.com</span>
+                </p>
+                <p class="exp">
+                    Contact:
+                    <span>7330701217</span>
+                </p>
+                <p class="exp">
+                    Freelance:
+                    <span>Available</span>
+                </p>
+            </div>
+            <a href="#projects" class="btn">View all projects</a>
+        </div>
+        <div class="about-img">
+            <img src="images/propic.png" alt="Profile Picture">
+        </div>
+    </section>
+
+
+    
+    <!-- projects page -->
+    <section class="projectpage" id="projects">
+        <div class="center-text">
+            <h2>My <span>Projects</span></h2>
+        </div>
+        <div class="project-content">
+            <div class="row">
+                <img src="images/facebook.jpg" alt="project image 1">
+                <div class="main-row">
+                    <div class="row-text">
+                        <h5>Facebook Clone</h5>
+                    </div>
+                    <div class="row-icon">
+                        <a href=""><i class="ri-github-fill"></i></a>
+                    </div>
+                </div>
+                <p>A facebook clone having full implementation and security using languages php, html, css, ajax and js etc.</p>
+            </div>
+            <div class="row">
+                <img src="images/greenplant.jpg" alt="project image 1">
+                <div class="main-row">
+                    <div class="row-text">
+                        <h5>Green Plant</h5>
+                    </div>
+                    <div class="row-icon">
+                        <a href=""><i class="ri-github-fill"></i></a>
+                    </div>
+                </div>
+                <p>An IOT based Plant Monitoring System website for early detection of pathogens using python, arduino, js etc.</p>
+            </div>
+            <div class="row">
+                <img src="images/musicmania.jpeg" alt="project image 1">
+                <div class="main-row">
+                    <div class="row-text">
+                        <h5>Music Mania</h5>
+                    </div>
+                    <div class="row-icon">
+                        <a href=""><i class="ri-github-fill"></i></a>
+                    </div>
+                </div>
+                <p>A Music Review Website with search for sample music and playlist options using python flask, html, css, js etc.</p>
+            </div>
+
+
+            
+            <div class="row">
+                <img src="images/digitallibrary.jpg" alt="project image 1">
+                <div class="main-row">
+                    <div class="row-text">
+                        <h5>Digital Library</h5>
+                    </div>
+                    <div class="row-icon">
+                        <a href=""><i class="ri-github-fill"></i></a>
+                    </div>
+                </div>
+                <p>An Online Library website with different categories and various books made using php, html, css, js, sql etc.</p>
+            </div>
+        </div>
+        <div class="top-btn more-btn">
+            <a href="#interest" class="h-btn">More Projects</a>
+        </div>
+    </section>
+    
+    <!-- interest page -->
+    <section class="interestpage" id="interest">
+        <div class="center-text">
+            <h2>What I <span>Know</span></h2>
+        </div>
+        <div class="interest-content">
+            <div class="row">
+                <div class="row-text">
+                    <h4>Frontend</h4>
+                </div>
+                <div class="main-row">
+                    <div class="skill">
+                        <div class="skill-icon">
+                            <i class="ri-html5-fill"></i>
+                        </div> 
+                        <h6 class="skill-content">
+                            HTML
+                        </h6>
+                    </div>
+                    <div class="skill">
+                        <div class="skill-icon">
+                            <i class="ri-css3-fill"></i>
+                        </div> 
+                        <h6 class="skill-content">
+                            CSS
+                        </h6>
+                    </div>
+                    <div class="skill">
+                        <div class="skill-icon">
+                            <i class="bx bxs-file-js"></i>
+                        </div> 
+                        <h6 class="skill-content">
+                            Javascript
+                        </h6>
+                    </div>
+                    <div class="skill">
+                        <div class="skill-icon">
+                            <i class="bx bxl-react"></i>
+                        </div> 
+                        <h6 class="skill-content">
+                            ReactJs
+                        </h6>
+                    </div>
+                    <div class="skill">
+                        <div class="skill-icon">
+                            <i class="bx bxl-jquery"></i>
+                        </div> 
+                        <h6 class="skill-content">
+                            JQuery
+                        </h6>
+                    </div>
+                    <div class="skill">
+                        <div class="skill-icon">
+                            <i class="bx bxl-bootstrap"></i>
+                        </div> 
+                        <h6 class="skill-content">
+                            Bootstrap
+                        </h6>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="row-text">
+                    <h4>Backend</h4>
+                </div>
+                <div class="main-row">
+                    <div class="skill">
+                        <div class="skill-icon">
+                            <i class="bx bxl-flask"></i>
+                        </div> 
+                        <h6 class="skill-content">
+                            Flask
+                        </h6>
+                    </div>
+                    <div class="skill">
+                        <div class="skill-icon">
+                            <i class="bx bxl-php"></i>
+                        </div> 
+                        <h6 class="skill-content">
+                            PHP
+                        </h6>
+                    </div>
+                    <div class="skill">
+                        <div class="skill-icon">
+                            <i class="bx bxs-file-js"></i>
+                        </div> 
+                        <h6 class="skill-content">
+                            Javascript
+                        </h6>
+                    </div>
+                    <div class="skill">
+                        <div class="skill-icon">
+                            <i class="bx bxl-nodejs"></i>
+                        </div> 
+                        <h6 class="skill-content">
+                            NodeJS
+                        </h6>
+                    </div>
+                    <div class="skill">
+                        <div class="skill-icon">
+                            <i class="bx bxl-c-plus-plus"></i>
+                        </div> 
+                        <h6 class="skill-content">
+                            C++
+                        </h6>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="row-text">
+                    <h4>Database</h4>
+                </div>
+                <div class="main-row">
+                    <div class="skill">
+                        <div class="skill-icon">
+                            <i class=""></i>
+                        </div> 
+                        <h6 class="skill-content">
+                            MySQL
+                        </h6>
+                    </div>
+                    <div class="skill">
+                        <div class="skill-icon">
+                            <i class=""></i>
+                        </div> 
+                        <h6 class="skill-content">
+                            SQLite
+                        </h6>
+                    </div>
+                    <div class="skill">
+                        <div class="skill-icon">
+                            <i class="bx bxl-mongodb"></i>
+                        </div> 
+                        <h6 class="skill-content">
+                            Mongodb
+                        </h6>
+                    </div>
+                    <div class="skill">
+                        <div class="skill-icon">
+                            <i class=""></i>
+                        </div> 
+                        <h6 class="skill-content">
+                            Mariadb
+                        </h6>
+                    </div>
+                    <div class="skill">
+                        <div class="skill-icon">
+                            <i class="bx bxl-postgresql"></i>
+                        </div> 
+                        <h6 class="skill-content">
+                            PostgreSQL
+                        </h6>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="row-text">
+                    <h4>Devops</h4>
+                </div>
+                <div class="main-row">
+                    <div class="skill">
+                        <div class="skill-icon">
+                            <i class="bx bxl-git"></i>
+                        </div> 
+                        <h6 class="skill-content">
+                            Git
+                        </h6>
+                    </div>
+                    <div class="skill">
+                        <div class="skill-icon">
+                            <i class="bx bxl-docker"></i>
+                        </div> 
+                        <h6 class="skill-content">
+                            Docker
+                        </h6>
+                    </div>
+                    <div class="skill">
+                        <div class="skill-icon">
+                            <i class=""></i>
+                        </div> 
+                        <h6 class="skill-content">
+                            Selenium
+                        </h6>
+                    </div>
+                    <div class="skill">
+                        <div class="skill-icon">
+                            <i class="bx bxl-gitlab"></i>
+                        </div> 
+                        <h6 class="skill-content">
+                            Gitlab
+                        </h6>
+                    </div>
+                    <div class="skill">
+                        <div class="skill-icon">
+                            <i class="bx bxl-aws"></i>
+                        </div> 
+                        <h6 class="skill-content">
+                            AWS
+                        </h6>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="interest-content2">
+            <div class="center-text">
+                <h2>More <span>Projects</span></h2>
+            </div>
+            <div class="row2">
+                <div class="col">
+                    <div class="joincol">
+                        <div class="proj-content">
+                            <h4 class="proj-title">
+                                Smart Powergrid
+                            </h4>
+                            <p class="proj-desc">
+                                This is an IOT Project with sensors integrated and a website.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="go-icon">
+                        <a href=""><i class="bx bx-chevron-right"></i></a>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+
+    <section class="contactpage" id="contact">
+        <div class="center-text">
+            <h2>Contact <span>Me</span></h2>
+        </div>
+        <div class="contact-form">
+            <form action="" method="post">
+                <input type="text" name="username" id="" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Email Address..." required>
+                <textarea name="desc" id="" cols="30" rows="10" placeholder="Write your message here..." required></textarea>
+                <div class="form-btns">
+                    <input type="reset" value="Clear message" class="send-btn reset">
+                    <input type="submit" value="Send message" class="send-btn send">
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <div class="footer">
+        <div class="copyright">
+            <p>@2023 <span>DileepAdari</span>, All Rights Reserved.</p>
+        </div>
+        <a href="#home" class="scroll-top">
+            <i class="bx bxs-rocket"></i>
+        </a>
+    </div>
+    <script type="text/javascript" src="js/script.js"></script>
 </body>
-<footer>
-    <p>© 2023 Dileepadari</p>
-</footer>
 </html>
