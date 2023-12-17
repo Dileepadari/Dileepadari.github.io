@@ -623,6 +623,18 @@ form .send-btn:hover{
         grid-auto-flow: dense;
     }
 
+    .projectpage{
+        min-height: max-content;
+    }
+
+    .interestpage{
+        min-height: max-content;
+    }
+
+    .contactpage{
+        min-height: max-content;
+    }
+
     .about-img{
         grid-row: 1;
         grid-column: 1;
@@ -721,17 +733,3 @@ form .send-btn:hover{
     }
 }
 
-
-@media (min-height: 1240px){
-    .projectpage{
-        min-height: max-content;
-    }
-
-    .interestpage{
-        min-height: max-content;
-    }
-
-    .contactpage{
-        min-height: max-content;
-    }
-}
