@@ -675,6 +675,7 @@ form .send-btn:hover{
     }
 
     .homepage{
+        min-height: auto;
         align-items: center;
         justify-content: center;
         max-width: 100vw;
@@ -686,6 +687,22 @@ form .send-btn:hover{
         background-size: 75vw;
         background-attachment: fixed;
         overflow: auto;
+    }
+
+    .contactpage{
+        min-height: auto;
+    }
+
+    .projectpage{
+        min-height: auto;
+    }
+
+    .interestpage{
+        min-height: auto;
+    }
+
+    .contactpage{
+        min-height: auto;
     }
 
     .about-img img{
