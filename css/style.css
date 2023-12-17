@@ -203,6 +203,7 @@ header.sticky{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     align-items: center;
+    justify-content: center;
     gap: 1rem;
 }
 
@@ -252,6 +253,7 @@ header.sticky{
     grid-template-columns: repeat(auto-fit, minmax(200px, auto));
     gap: 1.3rem;
     align-items: center;
+    justify-content: center;
     margin-top: 4.2rem;
 }
 
@@ -326,6 +328,7 @@ header.sticky{
     grid-template-columns: repeat(auto-fit, minmax(200px, auto));
     gap: 1.3rem;
     align-items: center;
+    justify-content: center;
     margin-top: 4.3rem;
 }
 
@@ -448,6 +451,8 @@ header.sticky{
 
 .contactpage{
     min-height: 90vh;
+    align-items: center;
+    justify-content: center;
 }
 
 .contact-form{
@@ -675,7 +680,6 @@ form .send-btn:hover{
     }
 
     .homepage{
-        min-height: auto;
         align-items: center;
         justify-content: center;
         max-width: 100vw;
@@ -687,22 +691,6 @@ form .send-btn:hover{
         background-size: 75vw;
         background-attachment: fixed;
         overflow: auto;
-    }
-
-    .contactpage{
-        min-height: auto;
-    }
-
-    .projectpage{
-        min-height: auto;
-    }
-
-    .interestpage{
-        min-height: auto;
-    }
-
-    .contactpage{
-        min-height: auto;
     }
 
     .about-img img{
