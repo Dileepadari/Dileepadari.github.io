@@ -719,9 +719,9 @@ form .send-btn:hover{
     }
 
     .about-img img{
-        height: 200px;
-        width: 200px;
-        max-width: 300px;
+        height: 300px;
+        width: 300px;
+        max-width: 350px;
         margin: 0 auto;
     }   
     .con{
