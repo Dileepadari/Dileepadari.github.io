@@ -310,7 +310,7 @@ header.sticky{
     background: #075fe4;
 }
 
-.row i:hover{
+.proj-content .row i:hover{
     background-color: #1b1f24;
     scale: 1.2;
 }

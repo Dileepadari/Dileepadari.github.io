@@ -11,7 +11,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,300;0,400;0,600;0,700;1,100;1,300;1,600&display=swap" rel="stylesheet">
-
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 <body>
     <!--header-->
@@ -33,11 +33,10 @@
 
     <!--homepage-->
     <section class="homepage" id="home">
-        <div class="blur-bgimage"></div>
-        <div class="bg-img">
+        <div class="bg-img" data-aos="zoom-in-down">
             <img src="images/background.png" alt="image">
         </div>
-        <div class="main-content">
+        <div class="main-content" data-aos="zoom-in-up">
             <h4>Hi, There!</h4>
             <h1>I'm <span>Dileep Kumar</span></h1>
             <p>A passionate web developer and programmer. My journey revolves around the enchanting world of software engineering, where I thrive on turning ideas into reality through the art of coding. With a keen interest in crafting digital solutions, my focus is on creating seamless and innovative experiences. Welcome to my portfolio, where every line of code tells a story of creativity and precision in the realm of web development</p>
@@ -56,7 +55,7 @@
 
     <!--about page-->
     <section class="aboutpage" id="about">
-        <div class="about-text">
+        <div class="about-text" data-aos="zoom-in-down">
             <h2>I am a <span>Programmer</span><br> & <span>Web Developer</span> </h2>
             <div class="exp-area">
                 <p class="exp">
@@ -90,7 +89,7 @@
             </div>
             <a href="#projects" class="btn">View all projects</a>
         </div>
-        <div class="about-img">
+        <div class="about-img" data-aos="zoom-in-up">
             <img src="images/propic.png" alt="Profile Picture">
         </div>
     </section>
@@ -99,10 +98,10 @@
     
     <!-- projects page -->
     <section class="projectpage" id="projects">
-        <div class="center-text">
+        <div class="center-text" data-aos="fade-down">
             <h2>My <span>Projects</span></h2>
         </div>
-        <div class="project-content">
+        <div class="project-content" data-aos="zoom-in-up">
             <div class="row">
                 <img src="images/facebook.jpg" alt="project image 1">
                 <div class="main-row">
@@ -162,10 +161,10 @@
     
     <!-- interest page -->
     <section class="interestpage" id="interest">
-        <div class="center-text">
+        <div class="center-text" data-aos="fade-down">
             <h2>What I <span>Know</span></h2>
         </div>
-        <div class="interest-content">
+        <div class="interest-content" data-aos="zoom-in-up">
             <div class="row">
                 <div class="row-text">
                     <h4>Frontend</h4>
@@ -366,7 +365,7 @@
                 </div>
             </div>
         </div>
-        <div class="interest-content2">
+        <div class="interest-content2" data-aos="zoom-in-up">
             <div class="center-text">
                 <h2>More <span>Projects</span></h2>
             </div>
@@ -392,10 +391,10 @@
     </section>
 
     <section class="contactpage" id="contact">
-        <div class="center-text">
+        <div class="center-text" data-aos="fade-down">
             <h2>Contact <span>Me</span></h2>
         </div>
-        <div class="contact-form">
+        <div class="contact-form" data-aos="zoom-in">
             <form action="" method="post">
                 <input type="text" name="username" id="" placeholder="Your Name" required>
                 <input type="email" name="email" placeholder="Email Address..." required>
@@ -408,7 +407,7 @@
         </div>
     </section>
 
-    <div class="footer">
+    <div class="footer">    
         <div class="copyright">
             <p>@2023 <span>DileepAdari</span>, All Rights Reserved.</p>
         </div>
@@ -417,5 +416,12 @@
         </a>
     </div>
     <script type="text/javascript" src="js/script.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        offset: 300,
+        duration: 1400,
+      });
+    </script>
 </body>
 </html>
