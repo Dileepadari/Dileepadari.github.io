@@ -722,7 +722,6 @@ form .send-btn:hover{
         height: 200px;
         width: 200px;
         max-width: 400px;
-        object-fit: cover;
         margin: 0 auto;
     }   
     .con{
