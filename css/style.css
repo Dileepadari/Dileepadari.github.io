@@ -719,8 +719,8 @@ form .send-btn:hover{
     }
 
     .about-img img{
-        height: 350px;
-        width: 350px;
+        height: 300px;
+        width: 300px;
         max-width: 500px;
         object-fit: contain;
         margin: 0 auto;
