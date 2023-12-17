@@ -207,6 +207,12 @@ header.sticky{
     gap: 1rem;
 }
 
+.aboutpage > *{
+    width: max-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .about-img img{
    width: 100%;
    height: 530px;
@@ -612,6 +618,7 @@ form .send-btn:hover{
         grid-template-columns: 1fr;
         gap: 2rem;
         align-items:start;
+        justify-content: center;
         text-align: center;
         grid-auto-flow: dense;
     }
@@ -619,6 +626,7 @@ form .send-btn:hover{
     .about-img{
         grid-row: 1;
         grid-column: 1;
+        align-self: flex-end;
     }
     .about-img img{
         height: 350px;
@@ -710,5 +718,20 @@ form .send-btn:hover{
     
     header{
         justify-content: space-between;
+    }
+}
+
+
+@media (min-height: 1240px){
+    .projectpage{
+        min-height: max-content;
+    }
+
+    .interestpage{
+        min-height: max-content;
+    }
+
+    .contactpage{
+        min-height: max-content;
     }
 }
