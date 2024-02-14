@@ -17,18 +17,31 @@ body{
     justify-content: center;
     align-items: center;
     min-height: 100vh;
+    max-height: 100vh;
+    max-width: 100vw;
     background: #fff;
     overflow: hidden;
 
 }
 
+.container{
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 .gif{
-    height: 100%;
-    width: 100%;
+    width: 400px;
+    aspect-ratio: 16/9;
 }
 h1{
     text-align: center;
-    font-size: 3.5em;
+    font-size: 2em;
     color: #e94d58;
     margin: 15px 0;
 }
@@ -154,7 +167,7 @@ button{
     </style>
 </head>
 <body>
-    <div class="container">
+    <div class="container" id="main">
         <h1>Happy Valentine's Day</h1>
         <h2 class="question">Do you like me?</h2>
         <img class="gif" alt="gif" src="../images/cute.gif">
@@ -173,6 +186,7 @@ const gif = document.querySelector(".gif");
 const yesBtn = document.querySelector(".yes-btn");
 const noBtn = document.querySelector(".no-btn");
 const btnGrp = document.querySelector(".btn-group");
+const maindiv = document.getElementById("main")
 
 
 const body = document.body;
@@ -180,6 +194,8 @@ const body = document.body;
 function createHeart() {
     const heart = document.createElement("div");
     const heart2 = document.createElement("div");
+    maindiv.appendChild(heart)
+    maindiv.appendChild(heart2)
     heart.className = "float-heart";
     heart2.className = "float-heart2";
 
