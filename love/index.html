@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To My heart</title>
+    <style>
+        *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #fff;
+    overflow: hidden;
+
+}
+
+.gif{
+    height: 100%;
+    width: 100%;
+}
+h1{
+    text-align: center;
+    font-size: 3.5em;
+    color: #e94d58;
+    margin: 15px 0;
+}
+
+h2{
+    text-align: center;
+    font-size: 1.5em;
+    color: #e94d58;
+    margin: 15px 0;
+}
+
+.btn-group{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+button{
+    position: absolute;
+    width: 150px;
+    height: inherit;
+    color: #fff;
+    font-size: 1.2em;
+    border-radius: 30px;
+    outline: none;
+    border: 2px solid #fa5dc6;
+    box-shadow: 0 2px 4px rgb(196, 163, 163);
+    cursor: pointer;
+}
+
+.yes-btn{
+    margin-left: -200px;
+    background: #e94d58;
+}
+
+.no-btn{
+    margin-right: -200px;
+    background-color: white;
+    color: #e94d58;
+}
+
+.heart{
+   width: 100px;
+   height: 100px;
+   transform: rotate(45deg);
+   transform-origin: center;
+   position: relative;
+   background: red;
+   margin: 100px auto;
+   scale: 0.4;
+   margin-top: -60px;
+   margin-bottom: -30px;
+}
+.heart::before, .heart::after{
+   content: '';
+   position: absolute;
+   width: 100px;
+   height: 100px;
+   border-radius: 50%;
+   background: red;
+}
+.heart::before{
+   left: -50px;
+}
+.heart::after{
+   top: -50px;
+}
+
+.float-heart2 {
+            position: absolute;
+            width: 20px;
+            height: 20px;
+            background-color: #e94d58;
+            clip-path: polygon(
+                50% 15%, 61% 5%, 68% 5%, 68% 16%, 79% 16%,
+                79% 25%, 50% 40%, 21% 25%, 21% 16%, 32% 16%,
+                32% 5%, 39% 5%, 50% 15%
+            );
+            animation: floatHeart2 5s linear infinite;
+        }
+
+.float-heart {
+            position: absolute;
+            width: 20px;
+            height: 20px;
+            background-color: #e94d58;
+            clip-path: polygon(
+                50% 15%, 61% 5%, 68% 5%, 68% 16%, 79% 16%,
+                79% 25%, 50% 40%, 21% 25%, 21% 16%, 32% 16%,
+                32% 5%, 39% 5%, 50% 15%
+            );
+            animation: floatHeart 5s linear infinite;
+        }
+
+        @keyframes floatHeart {
+            0% {
+                transform: translateY(100vh) translateX(100vw) rotate(0deg);
+            }
+
+            50% {
+                transform: translateY(-100vh) rotate(360deg);
+            }
+
+            100% {
+                transform: translateY(0) rotate(720deg);
+            }
+        }
+        @keyframes floatHeart2 {
+            0% {
+                transform: translateY(100vh) translateX(-100vw) rotate(0deg);
+            }
+
+            50% {
+                transform: translateY(-100vh) rotate(360deg);
+            }
+
+            100% {
+                transform: translateY(0) rotate(720deg);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Happy Valentine's Day</h1>
+        <h2 class="question">Do you like me?</h2>
+        <img class="gif" alt="gif" src="../images/cute.gif">
+        <div class="heart">
+        </div>
+        <div class="btn-group">
+            <button class="yes-btn">Yes</button>
+            <button class="no-btn">No</button>
+        </div>
+    </div>
+
+<script>
+    const container = document.querySelector(".container");
+const question = document.querySelector(".question");
+const gif = document.querySelector(".gif");
+const yesBtn = document.querySelector(".yes-btn");
+const noBtn = document.querySelector(".no-btn");
+const btnGrp = document.querySelector(".btn-group");
+
+
+const body = document.body;
+
+function createHeart() {
+    const heart = document.createElement("div");
+    const heart2 = document.createElement("div");
+    heart.className = "float-heart";
+    heart2.className = "float-heart2";
+
+    const randomX = Math.random() * window.innerWidth;
+    const randomY = Math.random() * window.innerHeight;
+
+    // Set the start position of the heart
+    heart.style.left = `${randomX}px`;
+    heart.style.top = `${randomY}px`;
+    heart2.style.top = `${randomY}px`;
+    heart2.style.left = `${randomX}px`;
+
+
+    body.appendChild(heart);
+    body.appendChild(heart2);
+}
+
+function createHearts(numberOfHearts) {
+    for (let i = 0; i < numberOfHearts; i++) {
+        createHeart();
+    }
+}
+
+yesBtn.addEventListener("click", () => {
+createHearts(100);    
+  question.innerHTML = "Inkenti, Raccha Lepadame!";
+  gif.src ="../images/love.gif";
+  yesBtn.innerHTML= "Okay"
+  document.querySelector(".heart").style.display = "none";
+  
+  yesBtn.addEventListener("click", () =>{
+      question.innerHTML = "Sare Mari untaa";
+      gif.src ="../images/bye.gif";
+      noBtn.style.display= "none"
+    yesBtn.style.display= "none"
+  });
+
+});
+
+noBtn.addEventListener("mouseover", () => {
+  const noBtnRect = noBtn.getBoundingClientRect();
+  const x = window.innerWidth - noBtnRect.width;
+  const y = window.innerHeight - noBtnRect.height;
+
+  const randomX = Math.floor(Math.random() * x);
+  const randomY = Math.floor(Math.random() * y);
+  
+  noBtn.style.left = randomX + "px";
+  noBtn.style.top = randomY + "px";
+});
+
+
+</script>
+    
+</body>
+</html>
