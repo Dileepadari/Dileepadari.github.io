@@ -34,7 +34,7 @@
     <!--homepage-->
     <section class="homepage" id="home">
         <div class="bg-img" data-aos="zoom-in-down">
-            <img src="images/background.png" alt="image">
+            <img src="images/background.png" alt="image" >
         </div>
         <div class="main-content" data-aos="zoom-in-up">
             <h4>Hi, There!</h4>
@@ -90,7 +90,7 @@
             <a href="#projects" class="btn">View all projects</a>
         </div>
         <div class="about-img" data-aos="zoom-in-up">
-            <img src="images/propic.png" alt="Profile Picture">
+            <img src="images/profilepic.jpeg" alt="Profile Picture" style="filter: brightness(0.9);">
         </div>
     </section>
 
@@ -387,6 +387,24 @@
                 </div>
                 
             </div>
+            <div class="row2">
+                <div class="col">
+                    <div class="joincol">
+                        <div class="proj-content">
+                            <h4 class="proj-title">
+                                Coming Soon
+                            </h4>
+                            <p class="proj-desc">
+                                The others will be uploaded shortly.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="go-icon">
+                        <a href=""><i class="bx bx-chevron-right"></i></a>
+                    </div>
+                </div>
+                
+            </div>
         </div>
     </section>
 
@@ -409,7 +427,8 @@
 
     <div class="footer">    
         <div class="copyright">
-            <p>@2023 <span>DileepAdari</span>, All Rights Reserved.</p>
+            <p>@<i id="year"></i> <span>DileepAdari</span>, All Rights Reserved.</p>
+            <script>document.getElementById("year").innerHTML = new Date().getFullYear();</script>
         </div>
         <a href="#home" class="scroll-top">
             <i class="bx bxs-rocket"></i>
