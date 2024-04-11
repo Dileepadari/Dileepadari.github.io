@@ -16,3 +16,25 @@ window.onscroll = () => {
     menu.classList.remove('bx-x');
     navlist.classList.remove('active');
 }
+
+let moreProjectsButton = document.getElementById('more-btn');
+let moreProjects = document.getElementById('more-projs');
+
+let isExpanded = false;
+
+moreProjectsButton.addEventListener('click', function() {
+    if (isExpanded) {
+        moreProjects.style.height = '0';
+        moreProjects.style.overflow = 'hidden';
+        moreProjectsButton.innerHTML = 'Show More';
+        window.scrollTo({
+            top: document.getElementById('projects').offsetTop,
+            behavior: 'smooth'
+        });
+    } else {
+        moreProjects.style.height = 'max-content';
+        moreProjects.style.overflow = 'visible';
+        moreProjectsButton.innerHTML = 'Show Less';
+    }
+    isExpanded = !isExpanded;
+});

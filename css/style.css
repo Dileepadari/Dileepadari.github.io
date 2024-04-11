@@ -256,33 +256,90 @@ header.sticky{
 
 .project-content{
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, auto));
+    grid-template-columns: repeat(auto-fit, minmax(350px, auto));
     gap: 1.3rem;
     align-items: center;
     justify-content: center;
     margin-top: 4.2rem;
 }
 
+.project-content2{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, auto));
+    gap: 1.3rem;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1.3rem;
+    height: 0;
+    overflow: hidden;
+    transition: height 0.5s ease-in-out;
+}
+
 .center-text{
     text-align: center;
+}
+
+.row-text{
+    font-size: 20px;
+    color: var(--other-color);
+    padding: 10px;
+}
+
+.row-text p{
+    font-size: 15px;
+    margin-top: 10px;
 }
 
 .row img{
     min-height: 200px;
     height: auto;
     width: 100%;
-    border-radius: 28px;
+    border-radius: 2px;
     margin-bottom: 1.4rem;
+    aspect-ratio: 16/9;
+    /* object-fit: contain; */
+}
+
+.source-links{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 5px;
+    padding: 10px;
+}
+
+.source-links a{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 20px;
+    color: var(--other-color);
+    border-radius: 8px;
+    font-size: 15px;
+    font-weight: 600;
+    transition: all .50s ease;
+}
+
+.source-links a:hover{
+    color: var(--bg-color);
+    background: var(--main-color);
+    box-shadow: 0 0 20px var(--main-color);
+}
+
+.dis{
+    pointer-events: none; /* Disables the anchor tag from being clickable */
+    opacity: 0.5; /* Optionally, reduces opacity to indicate it's disabled */
 }
 
 .row{
     height: 100%;
     background: #2d343f;
-    border-radius: 28px;
+    border-radius: 2px;
     border: 1px solid transparent;
     box-shadow: 0 0 5px var(--main-color);
-    padding: 20px;
+    padding: 6px;
     transition: all .50s ease;
+    cursor: pointer;
 }
 
 .main-row{
@@ -325,7 +382,7 @@ header.sticky{
 .row:hover{
     border: 1px solid var(--main-color);
     box-shadow: 0 0 20px var(--main-color);
-    transform: translateY(-5px) scale(1.03);
+    transform: translateY(-5px) scale(1.01);
     cursor: pointer;
 }
 
@@ -336,7 +393,7 @@ header.sticky{
 
 .interest-content{
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, auto));
+    grid-template-columns: repeat(auto-fit, minmax(350px, auto));
     gap: 1.3rem;
     align-items: center;
     justify-content: center;
@@ -346,7 +403,7 @@ header.sticky{
 .interest-content .row{
     height: 100%;
     background: #2d343f;
-    border-radius: 28px;
+    border-radius: 2px;
     border: 1px solid transparent;
     box-shadow: 0 0 5px var(--main-color);
     padding: 20px;
@@ -519,6 +576,59 @@ form .send-btn:hover{
     justify-content: space-around;
 }
 
+.contact-content{
+    display: flex;
+    /* flex-wrap: wrap; */
+    padding: 10px;
+}
+
+.contact-container{
+    display: block;
+    margin-top: 120px;
+    width: 60%;
+}
+
+.contact-container h2{
+    font-size: var(--h2-font);
+    font-weight: 900;
+    margin-bottom: 20px;
+}
+
+.contact-container p{
+    font-size: 20px;
+    color: var(--other-color);
+    font-weight: 300;
+    line-height: 22px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    /* padding: 10px 10px 10px 0; */
+    text-align: justify;
+}
+
+.contact-container .contact, .phone{
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    color: var(--other-color);
+}
+
+.contact-container .contact b, .phone b{
+    color: var(--main-color);
+    font-weight: 600;
+    margin-right: 10px;
+}
+
+.contact-container .contact a, .phone a{
+    color: var(--text-color);
+    font-weight: 600;
+    transition: all .50s ease;
+}
+
+#socialmediaicons{
+    margin-top: 20px;
+}
+
 .footer{
     padding: 22px;
     background: var(--second-bg-color);
@@ -640,6 +750,37 @@ form .send-btn:hover{
         min-height: max-content;
     }
 
+    .contact-content{
+        flex-wrap: wrap;
+    }
+    .contact-container{
+        width: 100%;
+    }
+
+
+
+    .contact-container h2{
+        font-size: var(--h2-font);
+        font-weight: 900;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    .contact-container .contact,.contact-container .phone,.contact-container .social{
+        padding: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: var(--other-color);
+    }
+
+    .contact-form{
+        align-self: center;
+        justify-self: center;
+        margin: auto;
+        width: 100%;
+    }
+
     .about-img{
         grid-row: 1;
         grid-column: 1;
@@ -660,7 +801,7 @@ form .send-btn:hover{
     }
 }
 
-@media (max-width: 950px){
+@media (max-width: 1050px){
     :root{
         --h1-font: 3.5rem;
     }
