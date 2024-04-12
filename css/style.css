@@ -879,3 +879,8 @@ form .send-btn:hover{
     }
 }
 
+@media (max-width: 430px){
+    .main-content h4{
+        margin-top: 100px;
+    }
+}
