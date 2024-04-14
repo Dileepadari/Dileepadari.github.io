@@ -544,7 +544,7 @@ form input, form textarea{
     background: #2d343f;
     color: var(--text-color);
     margin-bottom: 20px;
-    border-radius: 8px;
+    border-radius: 4px;
 }
 
 form input::placeholder, form textarea::placeholder{
@@ -559,7 +559,7 @@ form .send-btn{
     color: var(--bg-color);
     background: var(--main-color);
     border: 2px solid var(--main-color);
-    border-radius: 8px;
+    border-radius: 2px;
     font-size: 10px;
     font-weight: 600;
     transition: all .50s ease;
