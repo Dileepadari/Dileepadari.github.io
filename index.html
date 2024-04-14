@@ -559,13 +559,13 @@
             </div>
         </div>
         <div class="contact-form" data-aos="zoom-in">
-            <form method="post">
-                <input type="text" name="username" id="subject" placeholder="Your Name" required>
+            <form action="https://formspree.io/f/meqypdyv" method="POST">
+                <input type="text" name="subject" id="name" placeholder="Your Name" required>
                 <input type="email" name="email"  placeholder="Email Address..." required>
-                <textarea name="desc" id="msg" cols="30" rows="10" placeholder="Write your message here..." required></textarea>
+                <textarea name="message" id="msg" cols="30" rows="10" placeholder="Write your message here..." required></textarea>
                 <div class="form-btns">
                     <input type="reset" value="Clear message" class="send-btn reset">
-                    <input type="submit" value="Send message" class="send-btn send" onclick="send_Email();">
+                    <input type="submit" value="Send message" class="send-btn send">
                 </div>
             </form>
         </div>
@@ -581,24 +581,8 @@
             <i class="bx bxs-rocket"></i>
         </a>
     </div>
-    <script src="https://smtpjs.com/v3/smtp.js"></script>
     <script type="text/javascript" src="js/script.js"></script>
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-    <script type="text/javascript"> 
-        function send_Email(){
-            Email.send({
-                Host : "smtp.elasticemail.com",
-                SecureToken : "466b7605-86da-45c5-ab15-725035f7fcac",
-                Port: 2525,
-                To : "adaridileep@gmail.com",
-                From : document.querySelector("#email").value,
-                Subject : document.querySelector("#subject").value,
-                Body : document.querySelector("#msg").value
-            }).then(function (message) {
-                alert("mail sent successfully")
-            });
-        }
-    </script>
     <script>
         AOS.init({
             offset: 150,
