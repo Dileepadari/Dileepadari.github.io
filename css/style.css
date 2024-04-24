@@ -132,7 +132,7 @@ section{
     font-size: var(--p-font);
     font-weight: 400;
     max-width: 100%;
-    width: 620px;
+    width: 45vw;
     color: var(--other-color);
     line-height: 30px;
     margin-bottom: 15px;
