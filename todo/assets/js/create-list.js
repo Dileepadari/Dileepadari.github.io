@@ -284,10 +284,6 @@ function display_todo() {
         console.error("Error:", error);
       });
   }
-  if (localStorage.getItem("list-selected")) {
-    document.getElementById(localStorage.getItem("list-selected")).classList.add("active");
-    todosection(localStorage.setItem("selected-list-name"));
-  }
 }
 
 function createList() {
