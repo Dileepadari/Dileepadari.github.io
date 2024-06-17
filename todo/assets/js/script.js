@@ -86,7 +86,7 @@ setInterval(clock, 1000);
 
 function defaultProfilePicture(elmnt, n, more) {
   elmnt.innerHTML = `
-    <svg height="${n}" viewBox="0 0 256 256" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <svg height="${n}" viewBox="0 0 256 256" fill="none" xmlns="https://www.w3.org/2000/svg">
         <path d="M163.786 104.571C163.786 124.434 147.44 140.643 127.143 140.643C106.846 140.643 90.5 124.434 90.5 104.571C90.5 84.7089 106.846 68.5 127.143 68.5C147.44 68.5 163.786 84.7089 163.786 104.571Z" stroke="currentColor" stroke-width="9"/>
         <path fill-rule="evenodd" clip-rule="evenodd" d="M175.137 192.15C174.831 166.14 153.651 145.15 127.569 145.15C101.486 145.15 80.3067 166.14 80.0005 192.15H71C71.3066 161.17 96.5158 136.15 127.569 136.15C158.621 136.15 183.831 161.17 184.137 192.15H175.137Z" fill="currentColor"/>
     </svg>${more}`;

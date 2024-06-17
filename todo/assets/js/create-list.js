@@ -44,7 +44,7 @@ function createTask() {
       deadline: deadlineField.value.trim(),
     };
 
-    fetch("http://delhitodolist.pythonanywhere.com/task", {
+    fetch("https://delhitodolist.pythonanywhere.com/task", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
@@ -76,7 +76,7 @@ function createTask() {
 
 function deleteTodo() {
   const listId = localStorage.getItem("list-selected");
-  fetch(`http://delhitodolist.pythonanywhere.com/list/${listId}`, {
+  fetch(`https://delhitodolist.pythonanywhere.com/list/${listId}`, {
     method: "DELETE",
     headers: {
       "Content-Type": "application/json",
@@ -95,7 +95,7 @@ function deleteTodo() {
 }
 
 function deleteTask(task_id) {
-  fetch(`http://delhitodolist.pythonanywhere.com/task/${task_id}`, {
+  fetch(`https://delhitodolist.pythonanywhere.com/task/${task_id}`, {
     method: "DELETE",
     headers: {
       "Content-Type": "application/json",
@@ -111,7 +111,7 @@ function deleteTask(task_id) {
 }
 
 function UpdateTask(task_id, task_data) {
-  fetch(`http://delhitodolist.pythonanywhere.com/task/${task_id}`, {
+  fetch(`https://delhitodolist.pythonanywhere.com/task/${task_id}`, {
     method: "PUT",
     headers: {
       "Content-Type": "application/json",
@@ -195,7 +195,7 @@ function todosection(list_name) {
         <div class="line_dividerX"></div>
         <button type="button" id="add_task_btn" onclick=createTask()><i>&#xe710;</i>Add a task</button>`;
   fetch(
-    "http://localhost:5000/tasks/" +
+    "https://delhitodolist.pythonanywhere.com/tasks/" +
       list_name +
       "/" +
       localStorage.getItem("username")
@@ -236,7 +236,7 @@ function todosection(list_name) {
 
 function display_todo() {
   if (localStorage.getItem("logstatus")) {
-    fetch("http://delhitodolist.pythonanywhere.com/lists/" + localStorage.getItem("username"), {
+    fetch("https://delhitodolist.pythonanywhere.com/lists/" + localStorage.getItem("username"), {
       method: "GET",
       headers: {
         "Content-Type": "application/json",
@@ -327,7 +327,7 @@ function createList() {
       document.querySelector(".close_btn").click();
 
       // Send POST request to create_list endpoint
-      fetch("http://delhitodolist.pythonanywhere.com/create_list", {
+      fetch("https://delhitodolist.pythonanywhere.com/create_list", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",

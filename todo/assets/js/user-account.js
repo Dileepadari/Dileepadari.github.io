@@ -67,7 +67,7 @@ userlogBtn[0].onclick = () => {
                 username: input.value,
                 password: password.value
             };
-            fetch('http://delhitodolist.pythonanywhere.com/login', {
+            fetch('https://delhitodolist.pythonanywhere.com/login', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
