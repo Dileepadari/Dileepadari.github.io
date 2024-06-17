@@ -1,0 +1,111 @@
+/* #############################################################
+#
+#  Font name: Segoe UI Variable
+#  Owner: Microsoft Corporation
+#  Link: https://learn.microsoft.com/en-us/windows/apps/design/downloads/#fonts
+#
+################################################################ */
+
+@font-face {
+    font-family: "Segoe UI Variable Display";
+    src: url(../fonts/Segoe-UI-Variable-Static-Display-Light.ttf);
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: "Segoe UI Variable Display";
+    src: url(../fonts/Segoe-UI-Variable-Static-Display-Semilight.ttf);
+    font-weight: 350;
+}
+
+@font-face {
+    font-family: "Segoe UI Variable Display";
+    src: url(../fonts/Segoe-UI-Variable-Static-Display.ttf);
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "Segoe UI Variable Display";
+    src: url(../fonts/Segoe-UI-Variable-Static-Display-Semibold.ttf);
+    font-weight: 600;
+}
+
+@font-face {
+    font-family: "Segoe UI Variable Display";
+    src: url(../fonts/Segoe-UI-Variable-Static-Display-Bold.ttf);
+    font-weight: 700;
+}
+
+
+/* ################################################################ */
+
+@font-face {
+    font-family: "Segoe UI Variable Small";
+    src: url(../fonts/Segoe-UI-Variable-Static-Small-Light.ttf);
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: "Segoe UI Variable Small";
+    src: url(../fonts/Segoe-UI-Variable-Static-Small-Semilight.ttf);
+    font-weight: 350;
+}
+
+@font-face {
+    font-family: "Segoe UI Variable Small";
+    src: url(../fonts/Segoe-UI-Variable-Static-Small.ttf);
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "Segoe UI Variable Small";
+    src: url(../fonts/Segoe-UI-Variable-Static-Small-Semibold.ttf);
+    font-weight: 600;
+}
+
+@font-face {
+    font-family: "Segoe UI Variable Small";
+    src: url(../fonts/Segoe-UI-Variable-Static-Small-Bold.ttf);
+    font-weight: 700;
+}
+
+
+/* ################################################################ */
+
+@font-face {
+    font-family: "Segoe UI Variable Text";
+    src: url(../fonts/Segoe-UI-Variable-Static-Text-Light.ttf);
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: "Segoe UI Variable Text";
+    src: url(../fonts/Segoe-UI-Variable-Static-Text-Semilight.ttf);
+    font-weight: 350;
+}
+
+@font-face {
+    font-family: "Segoe UI Variable Text";
+    src: url(../fonts/Segoe-UI-Variable-Static-Text.ttf);
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "Segoe UI Variable Text";
+    src: url(../fonts/Segoe-UI-Variable-Static-Text-Semibold.ttf);
+    font-weight: 600;
+}
+
+@font-face {
+    font-family: "Segoe UI Variable Text";
+    src: url(../fonts/Segoe-UI-Variable-Static-Text-Bold.ttf);
+    font-weight: 700;
+}
+
+
+/* ################################################################ */
+
+@font-face {
+    font-family: "Segoe Fluent Icons";
+    src: url(../fonts/Segoe-Fluent-Icons.ttf);
+}
