@@ -750,11 +750,15 @@ main {
 
 .clients-item img {
   width: 100%;
-  filter: grayscale(1);
+  filter: drop-shadow(1px 1px 1px white);
+  /* filter: grayscale(1); */
   transition: var(--transition-1);
 }
 
-.clients-item img:hover { filter: grayscale(0); }
+.clients-item img:hover { 
+  /* filter: grayscale(0); */
+  transform: scale(1.3);
+}
 
 
 
@@ -838,6 +842,11 @@ main {
 
 .skills-list { padding: 20px; }
 
+.courses{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
 
 .skills-item:not(:last-child) { margin-bottom: 15px; }
 

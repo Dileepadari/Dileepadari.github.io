@@ -69,7 +69,65 @@
 
   </section>
 
-  <!-- Languages -->
+   {% if resume.achievements.enabled %}
+   <section class="timeline">
+
+    <div class="title-wrapper">
+      <div class="icon-box">
+        <ion-icon name="trophy-outline"></ion-icon>
+      </div>
+
+      <h3 class="h3">{{ resume.achievements.title }}</h3>
+    </div>
+
+    <ol class="timeline-list">
+      {{ resume.achievements }}
+      {% for achievement in resume.achievement %}
+
+      <li class="timeline-item">
+
+        <h4 class="h4 timeline-item-title">{{ achievement.title }}</h4>
+
+        <span>{{ achievement.timeline }}</span>
+
+        <p class="timeline-text">
+          {{ achievement.description }}
+        </p>
+
+      </li>
+
+      {% endfor %}
+
+    </ol>
+
+  </section>
+  {% endif %}
+
+  <!-- My Skills -->
+
+  {% if resume.courses.enabled %}
+  <section class="skill">
+
+    <h3 class="h3 skills-title">{{resume.courses.title}}</h3>
+
+    <ul class="skills-list content-card courses" style="padding-bottom: 0;">
+
+      {% for skill in resume.course %}
+
+      <li class="skills-item" style="width: calc(50% - 35px)">
+        <div class="title-wrapper">
+          <h5 class="h5">{{skill.title}}</h5>
+        </div>
+      </li>
+
+      {% endfor %}
+
+    </ul>
+
+  </section>
+  {% endif %}
+
+    <!-- Languages -->
   {% if resume.languages.enabled %}
   <section class="skill">
 
@@ -99,39 +157,6 @@
 
   </section>
   <br>
-  {% endif %}
-
-
-  <!-- My Skills -->
-
-  {% if resume.skills.enabled %}
-  <section class="skill">
-
-    <h3 class="h3 skills-title">{{resume.skills.title}}</h3>
-
-    <ul class="skills-list content-card">
-
-      {% for skill in resume.skill %}
-
-      <li class="skills-item">
-        <div class="title-wrapper">
-          <h5 class="h5">{{skill.title}}</h5>
-          {% if resume.skills.show_value %}
-          <data value="{{skill.value[:-1]}}">{{skill.value}}</data>
-          {% endif %}
-        </div>
-        {% if resume.skills.show_bar %}
-        <div class="skill-progress-bg">
-          <div class="skill-progress-fill" style="width: {{skill.value}};"></div>
-        </div>
-        {% endif %}
-      </li>
-
-      {% endfor %}
-
-    </ul>
-
-  </section>
   {% endif %}
 
 </article>

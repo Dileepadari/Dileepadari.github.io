@@ -1,14 +1,12 @@
-name = "Charan Adari"
-rol = "Mechanical Engineer"
-email = "charanadari2002@gmail.com"
-phone = "+91 7780557380"
-birthday = "Febraury 18, 2004"
+name = "Dileepkumar Adari"
+rol = "Software Developer"
+email = "adaridileep@gmail.com"
+phone = "+91 7330701217"
+birthday = "May 14, 2004"
 location = "Vadrapalli, Visakhapatnam, India"
-avatar = "./config/assets/avatars/cherry.jpeg"
-username = "Charanadari"
+avatar = "./config/assets/avatars/delhi.jpg"
+username = "Dileepadari"
 googlemaps = "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1901.3545306725555!2d83.0014085889!3d17.61654515225135!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a3973f2b7aea65f%3A0xd510b7cc2ba90dec!2sVadrapalli%2C%20Andhra%20Pradesh%20531033!5e0!3m2!1sen!2sin!4v1719320135410!5m2!1sen!2sin"
 presentation = """
-I'm a Mechanical Engineer from Visakhapatnam, specializing in innovative solutions and sustainable design. I enjoy transforming complex engineering challenges into practical, efficient, and reliable systems.
-
-My job is to design and develop mechanical systems that are not only functional but also optimized for performance and sustainability. I ensure that each project is executed with precision, integrating advanced engineering principles and cutting-edge technology. My aim is to deliver solutions that enhance productivity and efficiency while minimizing environmental impact. I have contributed to numerous projects across various industries, helping companies improve their mechanical processes and product designs.
+A passionate web developer and programmer. My journey revolves around the enchanting world of software engineering, where I thrive on turning ideas into reality through the art of coding. With a keen interest in crafting digital solutions, my focus is on creating seamless and innovative experiences. Welcome to my portfolio, where every line of code tells a story of creativity and precision in the realm of web development
 """

@@ -1,35 +1,123 @@
-[[project]]
-title = "Finite Element Analysis of Structural Component"
-category = "Analysis"
-image = "./config/assets/projects/project-4.png"
-url = "https://example.com/fea-analysis"
+[projects]
+title = "Projects"
+enabled = true
 
 [[project]]
-title = "Design and Fabrication of a Miniature Wind Turbine"
-category = "Design & Fabrication"
-image = "./config/assets/projects/project-5.png"
-url = "https://example.com/wind-turbine"
+title = "Green Plant"
+category = "Web Development"
+image = "./config/assets/projects/greenplant.jpg"
+url = "https://greenplant.pythonanywhere.com"
+source = "https://github.com/Dileepadari/Smart_farming.git"
+description = """
+A user-friendly website offering real-time plant condition information via sensor data. Designed using Flask, HTML, CSS for plant enthusiasts, gardeners, and indoor growers, it provides an intuitive interface for easy access to plant data.
+"""
 
 [[project]]
-title = "Optimization of HVAC System for Energy Efficiency"
-category = "Energy Systems"
-image = "./config/assets/projects/project-6.png"
-url = "https://example.com/hvac-optimization"
+title = "Network File System"
+category = "Distributed Systems"
+image = "./config/assets/projects/NFS.jpeg"
+url = "https://github.com/Dileepadari/Network_File_System"
+source = "https://github.com/Dileepadari/Network_File_System"
+description = """
+Developed a fault-tolerant distributed file system with TCP sockets and POSIX C, ensuring redundancy and managed concurrent client access, and implemented performance optimizations. A simple network file system with multiple clients and backup servers.
+"""
 
 [[project]]
-title = "Development of a Hydraulic Robotic Arm"
-category = "Robotics"
-image = "../config/assets/projects/project-7.png"
-url = "https://example.com/hydraulic-arm"
+title = "Blog Website"
+category = "Web Development"
+image = "./config/assets/projects/blogsite.jpg"
+url = "https://github.com/Dileepadari/Blog_Website_MERN"
+source = "https://github.com/Dileepadari/Blog_Website_MERN"
+description = """
+A blog website with login, post, comments, categories, etc., features using Next, React, Node, MongoDB, etc. It includes all the features of a blog for college-level projects with a simple UI configured for dark and light modes based on user preference.
+"""
 
 [[project]]
-title = "Manufacturing Process Improvement for Automotive Components"
-category = "Manufacturing"
-image = "./config/assets/projects/project-2.png"
-url = "https://example.com/manufacturing-process"
+title = "Smart PowerGrid"
+category = "IoT"
+image = "./config/assets/projects/smartgrid.jpg"
+url = "https://smart-powergrid.000webhostapp.com/"
+source = "https://github.com/Dileepadari/Smart-Powergrid"
+description = """
+Designed an IoT project for secure, energy-saving grid management. Implemented sensor deployment, UI design for data visualization, controlling appliances through the web, and shortage alerts. Additional features include report generation, status updates, and preference settings.
+"""
 
 [[project]]
-title = "Failure Analysis and Redesign of Mechanical Component"
-category = "Failure Analysis"
-image = "./config/assets/projects/project-9.png"
-url = "https://example.com/failure-analysis"
+title = "Facebook Clone"
+category = "Web Development"
+image = "./config/assets/projects/facebook.jpg"
+url = "https://lifeofiiith.rf.gd"
+source = "https://github.com/Dileepadari/Facebook_using_php"
+description = """
+A Facebook clone website with login, post, groups, friends, notifications, and personal messaging features using PHP, HTML, CSS, JS, etc. A social media website with all the features of Facebook, specifically made for college-level (especially for RGUKT students).
+"""
+
+[[project]]
+title = "Music Mania"
+category = "Web Development"
+image = "./config/assets/projects/musicmania.jpeg"
+url = "https://music-mania.pythonanywhere.com"
+source = "https://github.com/Dileepadari/ISSproject1/tree/phase3"
+description = """
+Developed a music review website allowing users to see artists, albums, and songs, and their music reviews. Implemented features such as playlist creation, song samples, and support for multiple users. This project was developed based on the requirements of an ISS course project.
+"""
+
+[[project]]
+title = "VSCode Web Extension for Virtual Labs"
+category = "Extension Development"
+image = "./config/assets/projects/vscode-extension.png"
+url = "https://marketplace.visualstudio.com/items?itemName=Virtual-Labs.VirtualLabs"
+source = "https://github.com/Dileepadari/virtual_web_trial"
+description = """
+This web extension is a part of the Virtual Labs project. It is a VSCode extension that provides a set of commands to interact with the Virtual Labs API. Users can clone and modify experiments, test them, and make pull requests.
+"""
+
+[[project]]
+title = "Attendance Management System"
+category = "Web Development"
+image = "./config/assets/projects/attendance.png"
+url = "https://rgukt-attend.000webhostapp.com/"
+source = "https://github.com/Dileepadari/Attendance_management_system_php"
+description = """
+An Attendance Management System for college level with login, attendance tracking, class-wise reports, and student-wise reports using Excel sheets, PHP, HTML, CSS, and JS. Designed to be simple and easy to use by faculty as per the requirements of RGUKT staff.
+"""
+
+[[project]]
+title = "Split Bill - Coin Connect"
+category = "Web Application"
+image = "./config/assets/projects/splitbill.jpeg"
+url = "https://dileepadari.pythonanywhere.com/"
+source = "https://github.com/Dileepadari/Hackathon42"
+description = """
+Coin Connect is a web application for splitting bills and creating groups of friends. It simplifies the process of splitting expenses when people go out together and helps maintain transactions and pending bills among friends.
+"""
+
+[[project]]
+title = "Authentication System"
+category = "Web Development"
+image = "./config/assets/projects/authentication.png"
+url = "https://github.com/Dileepadari/Authentication_Using_MERN"
+source = "https://github.com/Dileepadari/Authentication_Using_MERN"
+description = """
+A simple login and signup form using HTML, CSS, and JavaScript, validated using MERN stack. The authentication system is designed with security in mind and tested for maximum possible error cases. It can be easily embedded in any other project.
+"""
+
+[[project]]
+title = "Digital Library"
+category = "Web Development"
+image = "./config/assets/projects/digitallibrary.jpeg"
+url = "https://github.com/Dileepadari/digital_library"
+source = "https://github.com/Dileepadari/digital_library"
+description = """
+A digital library where users can access and upload files. The library is organized with categories and all content is well-structured. A reviewer checks the books uploaded by users. This project is useful for consolidating required content in a single place.
+"""
+
+[[project]]
+title = "Stop Watch"
+category = "Web Application"
+image = "./config/assets/projects/stopwatch.png"
+url = "https://github.com/Dileepadari/stopwatch"
+source = "https://github.com/Dileepadari/stopwatch"
+description = """
+A stopwatch app built using React.js. This project was created for fun and as part of a selection process by the Quantum Computing Club in college. It helped the creator get shortlisted for further stages. The stopwatch can be used in competitions.
+"""

@@ -1,20 +1,29 @@
+## I am a student in computer science engineering in 3rd year
+
 [[doing]]
-title = "CAD Modeling"
+title = "FullStack Development"
 icon = "./config/assets/icons/laptop-code.svg"
-text = "Precision modeling and design using CAD software for mechanical components and assemblies."
+text = """
+I have a strong foundation in web development and I am passionate about creating user-friendly and scalable web applications.
+"""
 
 [[doing]]
-title = "Finite Element Analysis (FEA)"
-icon = "./config/assets/icons/code.svg"
-text = "Simulation and analysis of mechanical structures and systems to optimize performance and durability."
-
-[[doing]]
-title = "Product Design"
+title = "Design Thinking"
 icon = "./config/assets/icons/compass.svg"
-text = "Innovative conceptualization and development of mechanical products with a focus on functionality and aesthetics."
+text = """
+Incorporating design principles and user-centric methodologies to create innovative and impactful solutions.
+"""
 
 [[doing]]
-title = "Manufacturing Processes"
+title = "UI/UX"
 icon = "./config/assets/icons/mobile.svg"
-text = "Implementation of advanced manufacturing techniques to streamline production and improve efficiency."
+text = """
+Crafting intuitive and visually appealing user interfaces for web applications, focusing on usability, accessibility, and responsive design.
+"""
 
+[[doing]]
+title = "Exploring Open Source"
+icon = "./config/assets/icons/linux.svg"
+text = """
+Rebuilding open-source projects and college websites and exploring new technologies to enhance my skills and knowledge in software development.
+"""

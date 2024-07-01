@@ -7,16 +7,37 @@ enabled = true # false
 #################################################
 # Technology I have worked with
 # name = "./.../../icon_path"
+
+# Languages: Python, JavaScript, C, C++, PHP, TypeScript
+# Backend: Django, Flask, Next.js, Node.js, Express.js
+# Frontend: React, jQuery, TailwindCSS, HTML, CSS, Bootstrap
+# Clouds & Databases: MySQL, MongoDB, Firebase, SQLite
+# Web Technologies: Docker, Nginx, Apache, Wordpress
+# Developer Tools: Postman, VsCode, Git, GitHub, GitLab, Trello
+# Other Skills: Collaboration, Networking, Leadership
 [technologies]
+wordpress = "./config/assets/icons/wordpress.svg"
 python = "./config/assets/icons/python.svg"
-flutter = "./config/assets/icons/flutter.svg"
+php = "./config/assets/icons/php.svg"
+c = "./config/assets/icons/c.svg"
+javascript = "./config/assets/icons/javascript.svg"
 git = "./config/assets/icons/git.svg"
-figma = "./config/assets/icons/figma.svg"
-firebase = "./config/assets/icons/firebase.svg"
-pandas = "./config/assets/icons/pandas.svg"
-mongodb = "./config/assets/icons/mongodb.svg"
-dart = "./config/assets/icons/dart.svg"
 html = "./config/assets/icons/html.svg"
-ai = "./config/assets/icons/ai.svg"
-jupyter = "./config/assets/icons/jupyter.svg"
+css = "./config/assets/icons/css.svg"
+mysql = "./config/assets/icons/mysql.svg"
+mongodb = "./config/assets/icons/mongodb.svg"
 linux = "./config/assets/icons/linux.svg"
+docker = "./config/assets/icons/docker.svg"
+nginx = "./config/assets/icons/nginx.svg"
+react = "./config/assets/icons/react.svg"
+nodejs = "./config/assets/icons/nodejs.svg"
+typescript = "./config/assets/icons/typescript.svg"
+firebase = "./config/assets/icons/firebase.svg"
+postman = "./config/assets/icons/postman.svg"
+flask = "./config/assets/icons/flask.svg"
+nextjs = "./config/assets/icons/nextjs.svg"
+jquery = "./config/assets/icons/jquery.svg"
+tailwindcss = "./config/assets/icons/tailwindcss.svg"
+sqlite = "./config/assets/icons/sqlite.svg"
+bootstrap = "./config/assets/icons/bootstrap.svg"
+trello = "./config/assets/icons/trello.svg"
