@@ -1,0 +1,35 @@
+[[project]]
+title = "Finite Element Analysis of Structural Component"
+category = "Analysis"
+image = "./config/assets/projects/project-4.png"
+url = "https://example.com/fea-analysis"
+
+[[project]]
+title = "Design and Fabrication of a Miniature Wind Turbine"
+category = "Design & Fabrication"
+image = "./config/assets/projects/project-5.png"
+url = "https://example.com/wind-turbine"
+
+[[project]]
+title = "Optimization of HVAC System for Energy Efficiency"
+category = "Energy Systems"
+image = "./config/assets/projects/project-6.png"
+url = "https://example.com/hvac-optimization"
+
+[[project]]
+title = "Development of a Hydraulic Robotic Arm"
+category = "Robotics"
+image = "../config/assets/projects/project-7.png"
+url = "https://example.com/hydraulic-arm"
+
+[[project]]
+title = "Manufacturing Process Improvement for Automotive Components"
+category = "Manufacturing"
+image = "./config/assets/projects/project-2.png"
+url = "https://example.com/manufacturing-process"
+
+[[project]]
+title = "Failure Analysis and Redesign of Mechanical Component"
+category = "Failure Analysis"
+image = "./config/assets/projects/project-9.png"
+url = "https://example.com/failure-analysis"

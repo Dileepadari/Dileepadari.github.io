@@ -1,0 +1,20 @@
+[[doing]]
+title = "CAD Modeling"
+icon = "./config/assets/icons/laptop-code.svg"
+text = "Precision modeling and design using CAD software for mechanical components and assemblies."
+
+[[doing]]
+title = "Finite Element Analysis (FEA)"
+icon = "./config/assets/icons/code.svg"
+text = "Simulation and analysis of mechanical structures and systems to optimize performance and durability."
+
+[[doing]]
+title = "Product Design"
+icon = "./config/assets/icons/compass.svg"
+text = "Innovative conceptualization and development of mechanical products with a focus on functionality and aesthetics."
+
+[[doing]]
+title = "Manufacturing Processes"
+icon = "./config/assets/icons/mobile.svg"
+text = "Implementation of advanced manufacturing techniques to streamline production and improve efficiency."
+
