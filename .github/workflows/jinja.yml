@@ -35,7 +35,9 @@ jobs:
         id: pages
         uses: actions/configure-pages@v4
       - name: Build with Python Jinja
-        run: python main.py
+        run: |
+          cd jinja
+          python main.py
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
