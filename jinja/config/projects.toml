@@ -36,7 +36,7 @@ A blog website with login, post, comments, categories, etc., features using Next
 title = "Smart PowerGrid"
 category = "IoT"
 image = "./config/assets/projects/smartgrid.jpg"
-url = "https://smart-powergrid.000webhostapp.com/"
+url = "https://smart-powergrid-1007.000webhostapp.com/"
 source = "https://github.com/Dileepadari/Smart-Powergrid"
 description = """
 Designed an IoT project for secure, energy-saving grid management. Implemented sensor deployment, UI design for data visualization, controlling appliances through the web, and shortage alerts. Additional features include report generation, status updates, and preference settings.
