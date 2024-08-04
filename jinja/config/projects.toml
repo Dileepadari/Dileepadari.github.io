@@ -4,7 +4,7 @@ enabled = true
 
 [[project]]
 title = "Green Plant"
-category = "Web Development"
+category = "IOT"
 image = "./config/assets/projects/greenplant.jpg"
 url = "https://greenplant.pythonanywhere.com"
 source = "https://github.com/Dileepadari/Smart_farming.git"
