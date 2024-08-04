@@ -34,7 +34,7 @@ A blog website with login, post, comments, categories, etc., features using Next
 
 [[project]]
 title = "Smart PowerGrid"
-category = "IoT"
+category = "IOT"
 image = "./config/assets/projects/smartgrid.jpg"
 url = "https://smart-powergrid-1007.000webhostapp.com/"
 source = "https://github.com/Dileepadari/Smart-Powergrid"
