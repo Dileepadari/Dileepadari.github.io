@@ -84,7 +84,7 @@ An Attendance Management System for college level with login, attendance trackin
 
 [[project]]
 title = "Split Bill - Coin Connect"
-category = "Web Application"
+category = "Web Development"
 image = "./config/assets/projects/splitbill.jpeg"
 url = "https://dileepadari.pythonanywhere.com/"
 source = "https://github.com/Dileepadari/Hackathon42"
@@ -114,7 +114,7 @@ A digital library where users can access and upload files. The library is organi
 
 [[project]]
 title = "Stop Watch"
-category = "Web Application"
+category = "Web Development"
 image = "./config/assets/projects/stopwatch.png"
 url = "https://github.com/Dileepadari/stopwatch"
 source = "https://github.com/Dileepadari/stopwatch"
