@@ -668,6 +668,12 @@ form .send-btn:hover{
     font-size: 28px;
 }
 
+.for_me iframe{
+    width: 100%;
+    aspect-ratio: 16/9;
+    border: none;
+}
+
 @media (max-width:  1700px) {
     header{
         padding: 20px 8%;
@@ -683,6 +689,11 @@ form .send-btn:hover{
     }
     .logo{
         font-size: 28px;
+    }
+    .for_me iframe{
+        width: 100%;
+        aspect-ratio: 16/9;
+        border: none;
     }
 }
 
@@ -702,6 +713,11 @@ form .send-btn:hover{
     .homepage{
         height: 90vh;
     }
+    .for_me iframe{
+        width: 100%;
+        aspect-ratio: 16/9;
+        border: none;
+    }
 }
 
 
@@ -716,6 +732,11 @@ form .send-btn:hover{
     }
     .box h3{
         font-size: 21px;
+    }
+    .for_me iframe{
+        width: 100%;
+        aspect-ratio: 16/9;
+        border: none;
     }
 }
 
@@ -803,6 +824,11 @@ form .send-btn:hover{
         --h2-font: 2.9rem;
         --p-font: 1rem;
     }
+    .for_me iframe{
+        width: 100%;
+        aspect-ratio: 16/9;
+        border: none;
+    }
 }
 
 @media (max-width: 1050px){
@@ -835,6 +861,11 @@ form .send-btn:hover{
 
     .navlist.active{
         right: 0;
+    }
+    .for_me iframe{
+        width: 100%;
+        aspect-ratio: 16/9;
+        border: none;
     }
 }
 
@@ -880,6 +911,11 @@ form .send-btn:hover{
     
     header{
         justify-content: space-between;
+    }
+    .for_me iframe{
+        width: 100%;
+        aspect-ratio: 16/9;
+        border: none;
     }
 }
 
