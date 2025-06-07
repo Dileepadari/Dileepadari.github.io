@@ -56,7 +56,7 @@ A Facebook clone website with login, post, groups, friends, notifications, and p
 title = "Music Mania"
 category = "Web Development"
 image = "./config/assets/projects/musicmania.jpeg"
-url = "https://music-mania.pythonanywhere.com"
+url = "https://musicmania.pythonanywhere.com"
 source = "https://github.com/Dileepadari/ISSproject1/tree/phase3"
 description = """
 Developed a music review website allowing users to see artists, albums, and songs, and their music reviews. Implemented features such as playlist creation, song samples, and support for multiple users. This project was developed based on the requirements of an ISS course project.
