@@ -1,6 +1,5 @@
-{  
+{
     "minKBReduced": 0,
-    "prTitle" : "images optimised",        
-    "prBody" : "Text before optimization ratio {optimization_ratio} Text after optimization ratio 
-                Text before optimization details {optimization_details} Text after optimization details",
+    "prTitle": "images optimised",
+    "prBody": "Optimization ratio: {optimization_ratio}\n\nDetails:\n{optimization_details}"
 }

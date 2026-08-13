@@ -1,1 +1,57 @@
-<embed src="../docs/portfolio.pdf" width="100%" height="100%" />
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume | Dileep Kumar Adari</title>
+    <meta name="description" content="Resume of Dileep Kumar Adari.">
+    <link rel="icon" href="/favicon.ico" sizes="any">
+    <style>
+        html, body {
+            height: 100%;
+            margin: 0;
+            /* keeps the archive banner's padding-top inside the 100% height
+               instead of pushing the viewer into an overflow scroll */
+            box-sizing: border-box;
+            background: #1b1f24;
+            color: #e6ebf2;
+            font-family: system-ui, -apple-system, 'Segoe UI', sans-serif;
+        }
+        .pdf {
+            display: block;
+            width: 100%;
+            height: 100%;
+            border: 0;
+        }
+        /* Shown only when the browser refuses to render the PDF inline,
+           which is most mobile browsers. */
+        .fallback {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            gap: 16px;
+            height: 100%;
+            padding: 24px;
+            text-align: center;
+        }
+        .fallback a {
+            padding: 12px 22px;
+            border-radius: 6px;
+            background: #13bbff;
+            color: #10141a;
+            font-weight: 600;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <object class="pdf" data="../docs/portfolio.pdf" type="application/pdf">
+        <div class="fallback">
+            <p>Your browser cannot display the PDF inline.</p>
+            <a href="../docs/portfolio.pdf" download="dileep_portfolio.pdf">Download the resume (PDF)</a>
+        </div>
+    </object>
+    <script src="../js/archive-banner.js"></script>
+</body>
+</html>
