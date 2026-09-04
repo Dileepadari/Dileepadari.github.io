@@ -1,9 +1,66 @@
-# Dileepadari.github.io - my old portfolio
+<div align="center">
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./docs/assets/adk_dev_logo_light.png">
+  <img src="./docs/assets/adk_dev_logo_dark.png" width="150" alt="ADK DEV" loading="lazy">
+</picture>
+
+# Dileepadari.github.io
+
+**My first portfolio, kept online as an archive. Hand-written HTML and CSS with no framework, plus a second config-driven version built on Jinja.**
+
+<img alt="HTML5" src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" loading="lazy">
+<img alt="CSS3" src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" loading="lazy">
+<img alt="Jinja" src="https://img.shields.io/badge/Jinja-B41717?style=for-the-badge&logo=jinja&logoColor=white" loading="lazy">
+<br>
+<img alt="GitHub Pages" src="https://img.shields.io/badge/GitHub_Pages-222222?style=for-the-badge&logo=githubpages&logoColor=white" loading="lazy">
+<img alt="Archived" src="https://img.shields.io/badge/Status-archived-6E7681?style=for-the-badge" loading="lazy">
+<img alt="MIT License" src="https://img.shields.io/badge/License-MIT-A31F34?style=for-the-badge" loading="lazy">
+
+<br><br>
+
+**[Developer documentation](./DEVDOC.md)** · [Live archive](https://dileepadari.github.io)
+
+</div>
+
+---
 
 > **This is my old portfolio.** My current site lives at **<https://dileepadari.dev>**.
 > This one stays online as an archive of where I started.
 
 Live archive: <https://dileepadari.github.io>
+
+## Screenshots
+
+The root site as it stands. There is no light mode to switch to, so unlike the other
+projects in this account there is no `README-light.md`: this site has one theme and
+always did.
+
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <img src="./docs/screenshots/01-root-hero.png" alt="The root site hero, with the archive banner linking to the current site" loading="lazy">
+      <p align="center"><b>Home</b><br><sub>The archive banner sits above the original page, untouched.</sub></p>
+    </td>
+    <td width="50%" valign="top">
+      <img src="./docs/screenshots/02-root-projects.png" alt="The projects grid on the root site" loading="lazy">
+      <p align="center"><b>Projects</b><br><sub>The grid, frozen at roughly its 2024 contents.</sub></p>
+    </td>
+  </tr>
+</table>
+
+<details>
+<summary><b>On a phone</b></summary>
+<br>
+<p align="center">
+  <img src="./docs/screenshots/03-root-mobile.png" width="330" alt="The root site at a 390x844 phone viewport" loading="lazy">
+</p>
+
+Below 680px the layout swaps the side photo for a fixed background image, which
+collides with the social icons and the two buttons. It is the original design's
+behaviour and it is left alone, because this repository is an archive rather than
+a thing under maintenance.
+</details>
 
 It is the first portfolio I built - hand-written HTML and CSS, no framework, no
 build step for the main page - plus a second, config-driven version I started
@@ -87,3 +144,9 @@ temp_test/            parked one-off files
 - Icons from [Boxicons](https://boxicons.com/),
   [Remix Icon](https://remixicon.com/) and [Ionicons](https://ionic.io/ionicons);
   scroll animations by [AOS](https://michalsnik.github.io/aos/).
+
+## License
+
+MIT, see [LICENSE](./LICENSE). The `jinja/` subtree keeps its own
+[`jinja/LICENSE`](jinja/LICENSE), also MIT, because the template it came from is
+somebody else's work and their copyright notice stays with it.
